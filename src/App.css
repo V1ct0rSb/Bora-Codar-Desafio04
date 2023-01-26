@@ -1,0 +1,57 @@
+.container {
+  margin: auto 0;
+}
+
+.card-perfil {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+}
+
+.perfil {
+  display: flex;
+  margin-left: 72px;
+}
+
+.title {
+  padding-left: 16px;
+}
+
+.title {
+  color: #e1e1e6;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.title h4 {
+  color: #00b37e;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.icon {
+  color: #ffffff;
+  font-size: 25px;
+  margin-right: 72px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+}
+
+.time h3 {
+  color: #e1e1e6;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
