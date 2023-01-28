@@ -3,7 +3,15 @@ import "./App.css";
 import { MdClose } from "react-icons/md";
 import { MdSend } from "react-icons/md";
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 export default function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1500, offset: 0 });
+  }, []);
+
   return (
     <div className="container">
       <div class="card-perfil">
@@ -18,9 +26,9 @@ export default function App() {
           </div>
         </div>
 
-        <div class="icon">
+        <button class="icon">
           <MdClose />
-        </div>
+        </button>
       </div>
 
       <div className="time">
@@ -28,17 +36,17 @@ export default function App() {
       </div>
 
       <div className="body">
-        <div className="card01">
+        <div className="card01" data-aos="fade-right">
           <h3>Cecilia - 11:30</h3>
           <p>Tive uma ideia incrível para um projeto! 😍</p>
         </div>
 
-        <div className="card02">
+        <div className="card02" data-aos="fade-left" data-aos-delay="600">
           <h3>Você - 11:32</h3>
           <p>Sério? Me conta mais.</p>
         </div>
 
-        <div className="card03">
+        <div className="card03" data-aos="fade-right" data-aos-delay="1200">
           <h3>Cecilia - 11:34</h3>
           <p>
             E se a gente fizesse um chat moderno e responsivo em apenas uma
@@ -46,7 +54,7 @@ export default function App() {
           </p>
         </div>
 
-        <div className="card04">
+        <div className="card04" data-aos="fade-left" data-aos-delay="2200">
           <h3>Você - 11:36</h3>
           <p>#boraCodar! 🚀</p>
         </div>
