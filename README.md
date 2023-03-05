@@ -1,11 +1,11 @@
-<h1>#BoraCodar#04</h1>
+<h1>#BoraCodar - Desafio04</h1>
 
 ![project](https://user-images.githubusercontent.com/112266976/214953428-b34142e2-d677-4abb-a24b-6d02ffe5f170.png)
 
 
 <h2>💻 Introdução</h2>
 
-<p>Esse é o desafio 04 do projeto criado pela <a href="https://www.rocketseat.com.br/">Rocketseat</a> chamado #boraCodar, cujo intuito é desafiar os devs e testar suas habilidades na proramação.</p>
+<p>Esse é o desafio 04 do projeto criado pela <a href="https://www.rocketseat.com.br/">Rocketseat</a> chamado #boraCodar, cujo intuito é desafiar os devs e testar suas habilidades na programação e nesse desafio foi proposto fazer um layout de um chat de conversa.</p>
 
 <h2>🚀 Tecnologias</h2>
 <h3>Front-End</h3>
@@ -27,7 +27,7 @@
 <li>Copie a URL do repositório</li>
 <li>Digite <code>git clone + URL copiada</code> e pressione <code>enter</code></li>
 
-<h3>2. Dentro do projeto recem-criado, basta executar os seguinte comandos:</h3>
+<h3>2. Dentro do projeto recém-criado, basta executar os seguintes comandos:</h3>
 
-<li><code>npm i</code> ou <code>npm install</code>, no qual vai baixar todos pacotes necessários para rodar o projeto</li>
+<li><code>npm i</code> ou <code>npm install</code>, no qual vai baixar todos os pacotes necessários para rodar o projeto</li>
 <li><code>npm start</code> que vai abrir no navegador <code>http://localhost:3000</code>, aonde poderá ver o projeto </li>
